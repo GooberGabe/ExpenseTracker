@@ -46,10 +46,6 @@ public class Main {
                     System.out.print("What is your spending threshold for this time period? ");
                     float threshold = scanner.nextFloat();
                     
-                    //DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-
-                    //LocalDate startDate = LocalDate.parse(startDateLine, formatter);
-                    //LocalDate endDate = LocalDate.parse(endDateLine, formatter);
                     LocalDate startDate = LocalDate.parse(startDateLine);
                     LocalDate endDate = LocalDate.parse(endDateLine);
                     System.out.println("Successfully added a new goal.");

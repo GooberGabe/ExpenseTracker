@@ -2,9 +2,11 @@ import java.time.LocalDate;
 
 public class Expense 
 {
-    private final LocalDate date;
-    private final String name;
-    private final Float amount;
+    protected LocalDate date;
+    protected String name;
+    protected Float amount;
+    
+    public Expense() {}
     
     public Expense(LocalDate _date, String _name, Float _amount)
     {
